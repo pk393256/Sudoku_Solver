@@ -129,8 +129,8 @@ function App() {
   
   return (
     <ChakraProvider theme={theme}>
-      <Box display='flex' gap='90px'>
-        <Box  mt='100px' width='300px' gap='3px' display='flex' flexDirection='column' border='3px solid green'>
+      <Box ml='25%' display='flex' gap='90px'>
+        <Box  mt='170px' width='300px' gap='3px' display='flex' flexDirection='column' border='3px solid green'>
           <input type='number' name='name1' value={name1} onChange={handleChange} />
           <input type='number' name='name2' value={name2} onChange={handleChange} />
           <input type='number' name='name3' value={name3} onChange={handleChange} />
@@ -142,7 +142,7 @@ function App() {
           <input type='number' name='name9' value={name9} onChange={handleChange} />
           <Button onClick={Submit}>SOLVE</Button>
         </Box>
-        <Box mt='60px' >
+        <Box mt='130px' >
           <Heading ml='130px'>Solution</Heading>
           <h1>{notPossible}</h1>
           
